@@ -90,38 +90,6 @@
     <Import Include="System.Windows.Forms" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="..\..\Common\CustomScroll\CustomScroll\CustomScroll.designer.vb">
-      <Link>External Resources\CustomScroll.designer.vb</Link>
-      <DependentUpon>CustomScroll.vb</DependentUpon>
-    </Compile>
-    <Compile Include="..\..\Common\CustomScroll\CustomScroll\CustomScroll.vb">
-      <Link>External Resources\CustomScroll.vb</Link>
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="..\..\Common\ErrorEventBox.Designer.vb">
-      <Link>External Resources\ErrorEventBox.Designer.vb</Link>
-    </Compile>
-    <Compile Include="..\..\Common\ErrorEventBox.vb">
-      <Link>External Resources\ErrorEventBox.vb</Link>
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="..\..\Common\ExampleUtils.vb">
-      <Link>External Resources\ExampleUtils.vb</Link>
-    </Compile>
-    <Compile Include="..\..\Common\PhidgetInfoBox.Designer.vb">
-      <Link>External Resources\PhidgetInfoBox.Designer.vb</Link>
-    </Compile>
-    <Compile Include="..\..\Common\PhidgetInfoBox.vb">
-      <Link>External Resources\PhidgetInfoBox.vb</Link>
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="Form1.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form1.Designer.vb">
-      <DependentUpon>Form1.vb</DependentUpon>
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="LoggerForm.Designer.vb">
       <DependentUpon>LoggerForm.vb</DependentUpon>
     </Compile>
@@ -146,20 +114,6 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="..\..\Common\CustomScroll\CustomScroll\CustomScroll.resx">
-      <Link>External Resources\CustomScroll.resx</Link>
-      <DependentUpon>CustomScroll.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="..\..\Common\ErrorEventBox.resx">
-      <Link>External Resources\ErrorEventBox.resx</Link>
-    </EmbeddedResource>
-    <EmbeddedResource Include="..\..\Common\PhidgetInfoBox.resx">
-      <Link>External Resources\PhidgetInfoBox.resx</Link>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Form1.resx">
-      <SubType>Designer</SubType>
-      <DependentUpon>Form1.vb</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="LoggerForm.resx">
       <DependentUpon>LoggerForm.vb</DependentUpon>
     </EmbeddedResource>

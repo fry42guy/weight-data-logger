@@ -32,7 +32,7 @@ Namespace My
         
         <Global.System.Diagnostics.DebuggerStepThroughAttribute()>  _
         Protected Overrides Sub OnCreateMainForm()
-            Me.MainForm = Global.temperaturesensor_thermocouple_simple.Form1
+            Me.MainForm = Global.temperaturesensor_thermocouple_simple.DataloggerForm
         End Sub
     End Class
 End Namespace
